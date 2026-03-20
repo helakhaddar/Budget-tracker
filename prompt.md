@@ -1,0 +1,1 @@
+Create a budget tracker app using Streamlit and Python. Store data in a CSV file. Let me add income and expenses with category, amount, date and a note. Show the balance and a chart of spending by category.
