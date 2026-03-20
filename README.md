@@ -1,6 +1,6 @@
 # Budget Tracker
 
-A simple and clean budget tracking web app built with **Python** and **Streamlit**. Log your income and expenses, visualize your spending by category, and stay on top of your finances — all stored locally in a CSV file, no database required.
+A simple and clean budget tracking web app built with **Python** and **Streamlit** using Claude Code. It is used to log your income and expenses, visualize your spending by category, and stay on top of your finances — all stored locally in a CSV file, no database required.
 
 ---
 
@@ -16,11 +16,10 @@ A simple and clean budget tracking web app built with **Python** and **Streamlit
 
 - **Add transactions** — record income or expenses with a category, amount, date, and optional note
 - **Dynamic categories** — category list automatically switches between income and expense options
-- **Balance overview** — see your current balance, total income, and total expenses at a glance
-- **Spending chart** — interactive bar chart showing expenses grouped by category (powered by Plotly)
+- **Balance overview** — see your current balance, total income, and total expenses 
+- **Spending chart** — interactive bar chart showing expenses grouped by category 
 - **Transaction history** — filterable and sortable table of all your transactions
-- **CSV persistence** — data is saved to a local `transactions.csv` file and survives app restarts
-- **No database needed** — fully self-contained, runs entirely on your machine
+- **CSV persistence** — data is saved to a local `transactions.csv` file 
 
 ---
 
