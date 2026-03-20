@@ -1,0 +1,74 @@
+# Budget Tracker
+
+A simple and clean budget tracking web app built with **Python** and **Streamlit**. Log your income and expenses, visualize your spending by category, and stay on top of your finances — all stored locally in a CSV file, no database required.
+
+---
+
+## Preview
+
+![Preview](image/preview.png)
+![Spending by Category](image/category.png)
+![Transaction Table](image/transaction%20table.png)
+
+---
+
+## Features
+
+- **Add transactions** — record income or expenses with a category, amount, date, and optional note
+- **Dynamic categories** — category list automatically switches between income and expense options
+- **Balance overview** — see your current balance, total income, and total expenses at a glance
+- **Spending chart** — interactive bar chart showing expenses grouped by category (powered by Plotly)
+- **Transaction history** — filterable and sortable table of all your transactions
+- **CSV persistence** — data is saved to a local `transactions.csv` file and survives app restarts
+- **No database needed** — fully self-contained, runs entirely on your machine
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.9 or higher
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/helakhaddar/Budget-tracker.git
+   cd Budget-tracker
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the app**
+
+   ```bash
+   streamlit run app.py
+   ```
+
+4. **Open your browser** — Streamlit will automatically open the app at `http://localhost:8501`
+
+---
+
+## Project Structure
+
+```
+Budget-tracker/
+├── app.py              # Main Streamlit application
+├── requirements.txt    # Python dependencies
+├── image/              # Screenshots for the README
+└── transactions.csv    # Auto-created on first transaction (gitignored)
+```
+
+---
+
+## Built With
+
+- [Streamlit](https://streamlit.io/) — web app framework
+- [Pandas](https://pandas.pydata.org/) — data handling and CSV read/write
+- [Plotly](https://plotly.com/python/) — interactive charts
