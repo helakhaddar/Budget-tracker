@@ -54,6 +54,13 @@ A simple and clean budget tracking web app built with **Python** and **Streamlit
 
 ---
 
+## Prompt used 
+This project was developed using Claude Code.  
+You can explore the exact prompt used to build the application here:  
+[View Prompt](Prompt-used)
+
+---
+
 ## Project Structure
 
 ```
@@ -64,10 +71,3 @@ Budget-tracker/
 └── transactions.csv    # Auto-created on first transaction (gitignored)
 ```
 
----
-
-## Built With
-
-- [Streamlit](https://streamlit.io/) — web app framework
-- [Pandas](https://pandas.pydata.org/) — data handling and CSV read/write
-- [Plotly](https://plotly.com/python/) — interactive charts
