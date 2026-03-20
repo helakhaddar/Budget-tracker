@@ -57,7 +57,7 @@ A simple and clean budget tracking web app built with **Python** and **Streamlit
 ## Prompt used 
 This project was developed using Claude Code.  
 You can explore the exact prompt used to build the application here:  
-[View Prompt](Prompt-used)
+[View Prompt](Prompt.md)
 
 ---
 
